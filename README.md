@@ -1,5 +1,5 @@
 # Hoisting by Lizette Rodriguez
-//Question 1
+//Question 1  
 console.log('bar:', bar)//bar:undefined  
 bar = 15  
 var foo = 1  
