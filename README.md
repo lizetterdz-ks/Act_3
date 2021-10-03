@@ -1,12 +1,12 @@
 # Hoisting by Lizette Rodriguez
-//Question 1  
+##Question 1  
 
 	console.log('bar:', bar)//bar:undefined  
 	bar = 15  
 	var foo = 1  
 	console.log(foo,bar)//1 15  
 	var bar 
-//Question 2  
+##Question 2  
 
 	var foo = 5  
 	console.log('foo:', foo)//foo:5  
@@ -17,7 +17,7 @@
 	var baz = 10  
 	var baz = 12  
 	console.log('baz:,baz)//baz:12  
-//Question 3  
+##Question 3  
 
 	function foo(){  
 		function bar(){  
@@ -29,7 +29,7 @@
 		}  
 	}  
 	console.log(foo());//10  
-//Question 4  
+##Question 4  
 
 	function foo(){  
 		var bar = "I'm a bar variable"  
@@ -39,7 +39,7 @@
 		return bar()  
 	}  
 	console.log(foo())//bar is not a function  
-//Question 5  
+##Question 5  
 
 	greeting()//Good evening  
 	var greeting = function () {  
@@ -50,13 +50,13 @@
 		console.log('Good evening')  
 	}  
 	greeting();//Good morning  
-//Question 6   
+##Question 6   
 
 	var foo = 5  
 	console.log('foo:', foo)//foo:5  
 	var foo = 10  
 	console.log('foo:', foo)//foo:10  
-//Question 7  
+##Question 7  
 
 	console.log(foo());//3  
 	function foo(){  
@@ -68,7 +68,7 @@
 			return 8  
 		}  
 	}  
-//Question 8  
+##Question 8  
 
 	var x = 'foo';  
 	(function (){  
@@ -76,7 +76,7 @@
 		var x = 'bar'  
 		console.log('x: ' + x)//x: bar  
 	})()  
-//Question 9  
+##Question 9  
 
 	function foo(){  
 		console.log('First')  
@@ -85,7 +85,7 @@
 	function foo(){  
 		console.log('Second')  
 	}  
-//Question 10  
+##Question 10  
 
 	var foo = 5  
 	function baz(){  
